@@ -1,10 +1,10 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: firstpodinfo
+  name: podinfo
   namespace: firstapp
 spec:
-  releaseName: firstpodinfo
+  releaseName: podinfo
   chart:
     git: https://github.com/stefanprodan/podinfo
     ref: v3.x

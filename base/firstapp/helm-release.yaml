@@ -9,3 +9,4 @@ spec:
     git: https://github.com/stefanprodan/podinfo
     ref: v3.x
     path: charts/podinfo
+
